@@ -1,11 +1,123 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World!</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>EXA618 | Primeiro Deploy na Vercel</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    height:100vh;
+    background: linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:white;
+}
+
+.container{
+    text-align:center;
+    max-width:800px;
+    padding:40px;
+}
+
+.card{
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(10px);
+    border-radius:20px;
+    padding:50px;
+    box-shadow:0 10px 40px rgba(0,0,0,0.4);
+    border:1px solid rgba(255,255,255,0.1);
+}
+
+h1{
+    font-size:3rem;
+    margin-bottom:10px;
+    letter-spacing:2px;
+}
+
+.course{
+    color:#00e5ff;
+    font-weight:600;
+    font-size:1.2rem;
+    margin-bottom:20px;
+}
+
+.description{
+    font-size:1.1rem;
+    line-height:1.6;
+    opacity:0.9;
+}
+
+.highlight{
+    color:#00e5ff;
+}
+
+.footer{
+    margin-top:40px;
+    font-size:0.95rem;
+    opacity:0.8;
+}
+
+.badge{
+    display:inline-block;
+    margin-top:30px;
+    padding:10px 18px;
+    border-radius:30px;
+    background:#00e5ff;
+    color:#00343d;
+    font-weight:bold;
+}
+
+.crawler-icon{
+    font-size:50px;
+    margin-bottom:20px;
+}
+
+</style>
 </head>
+
 <body>
-    
+
+<div class="container">
+
+<div class="card">
+
+<div class="crawler-icon">🕷️</div>
+
+<h1>Primeiro Deploy na Vercel</h1>
+
+<div class="course">
+Disciplina: EXA618
+</div>
+
+<p class="description">
+Esta página representa o <span class="highlight">primeiro deploy na plataforma Vercel</span>,
+realizado como parte das atividades da disciplina <span class="highlight">EXA618</span>.  
+O objetivo é demonstrar o processo de publicação de uma aplicação web utilizando
+infraestrutura em nuvem moderna e escalável.
+</p>
+
+<div class="badge">
+Deploy realizado com sucesso
+</div>
+
+<div class="footer">
+Desenvolvido por <b>Anésio Neto</b>
+</div>
+
+</div>
+
+</div>
+
 </body>
 </html>
