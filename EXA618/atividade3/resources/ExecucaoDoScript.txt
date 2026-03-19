@@ -1,0 +1,10 @@
+➜  exa618 python3 joao/Atividade03/SAX.py
+🔄 Running SAX...
+✔ SAX encontrou 125 estabelecimentos
+⏱ Tempo SAX: 0.9342s
+➜  exa618 
+➜  exa618 python3 joao/Atividade03/DOM.py
+🔄 Running DOM...
+✔ DOM encontrou 125 estabelecimentos
+⏱ Tempo DOM: 3.7042s
+➜  exa618 
